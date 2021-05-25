@@ -1,8 +1,17 @@
+import styled from 'styled-components';
+import { BasicTitle } from './components/BasicTitle';
+import { DefaultButton } from './components/Button';
+
+
+
+
+
 function App() {
   return (
     <div style= {{ padding : '2rem'}}>
-      <h1 className="title">styled components</h1>
-      <button className="btn">click me</button>
+      <BasicTitlecTitle>styled components</BasicTitle>
+      <DefaultButtontton>click me</DefaultButton>
+     
     </div>
    
   );
